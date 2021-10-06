@@ -318,33 +318,98 @@ h4 {
     margin-bottom: -20px;
 }
 
-.QA {
-    margin: 0px 40px 20px 40px;
-    padding: 20px;
-    border-radius: 30px;
+.ques1, .ques2, .ques3 {
+    margin: 20px 30px;
 }
 
-.QA h5 {
-    font-size: 19px;
-    margin: 8px 0;
+#faq h5 {
+    font-size: 18px;
 }
 
-.QA p {
-    margin: 0 20px;
-    text-align: justify;
+.ans1 p, .ans2 p, .ans3 p {
+    margin: 7px 20px 0 20px;
+    font-size: 17px;
+    text-align: justify; 
 }
 
-.QA1 {
-    background: rgba(39, 174, 96, 0.7);
+/* Quest 1: Start */
+.ans1 {
+    display: none;
 }
 
-.QA2 {
-    background: rgba(231, 76, 60, 0.7);
+.title1 {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
 
-.QA3 {
-    background: rgba(52, 152, 219, 0.7);
+.ques1-tit1 {
+    display: flex;
 }
+
+.ques1-input:checked ~ .ans1 {
+    display: block;
+}
+
+.ans1-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+/* Quest 1: Finish */
+
+/* Quest 2: Start */
+.ans2 {
+    display: none;
+}
+
+.title2 {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ques2-input:checked ~ .ans2 {
+    display: block;
+}
+
+.ans2-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+/* Quest 2: Finish */
+
+/* Quest 3: Start */
+.ans3 {
+    display: none;
+}
+
+.title3 {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ques3-input:checked ~ .ans3 {
+    display: block;
+}
+
+.ans3-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+/* Quest 3: Finish */
 
 #footer {
     background-color: rgba(231,231,231,1);
