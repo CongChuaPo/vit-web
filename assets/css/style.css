@@ -365,7 +365,7 @@ h4 {
 .footer-col1 {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .footer-col1__logo img {
@@ -385,7 +385,7 @@ h4 {
 
 .footer-col2 {
     z-index: 10;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .footer-col2 a {
@@ -401,18 +401,18 @@ h4 {
 } 
 
 .footer-col2__fb a {
-    padding: 10px 135px 10px 10px;
+    padding: 10px;
     background-color: #3a5a98;
 }
 
 .footer-col2__gmail a {
-    padding: 10px;
+    padding: 10px 41px 10px 10px;
     background-color: #fff;
     color: #666;
 }
 
 .footer-col2__youtube a {
-    padding: 10px 43px 10px 10px;
+    padding: 10px 20px 10px 10px;
     background-color: rgb(225,30,35);
 }
 
